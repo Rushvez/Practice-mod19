@@ -172,7 +172,7 @@ def test_input_invalid_name(name='12!;%', animal_type='двортерьер',
 
     status, result = pf.add_new_pet(auth_key, name, animal_type, age, pet_photo)
 
-    if animal_type != text:
+    if name != text:
         print("Не верно введено имя")
         except ValueError
     else:
